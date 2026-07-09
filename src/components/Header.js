@@ -275,6 +275,30 @@ export default function Header() {
               </li>
             ))}
             {/* CMS Dashboard link removed */}
+            <li>
+              <button 
+                onClick={() => { toggleLanguage(); setMobileMenuOpen(false); }}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  background: 'none',
+                  border: 'none',
+                  fontSize: '1rem',
+                  fontWeight: 'bold',
+                  color: 'var(--color-accent)',
+                  cursor: 'pointer',
+                  padding: '1rem 0',
+                  width: '100%',
+                  borderTop: '1px solid var(--color-border)',
+                  marginTop: '0.8rem',
+                  fontFamily: 'inherit'
+                }}
+              >
+                <Globe size={18} />
+                <span>{language === 'en' ? 'Switch to हिंदी' : 'English में बदलें'}</span>
+              </button>
+            </li>
           </ul>
         </div>
       )}
