@@ -83,6 +83,10 @@ export default function Header() {
   };
 
   const toggleSearch = () => {
+    if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+      router.push('/search');
+      return;
+    }
     setSearchOpen(!searchOpen);
     if (!searchOpen) {
       setTimeout(() => searchInputRef.current?.focus(), 100);

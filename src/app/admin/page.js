@@ -586,7 +586,7 @@ export default function AdminCMSPage() {
                   />
                 </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                <div className={styles.modalFormRow}>
                   <div className={styles.formGroup}>
                     <label>Category</label>
                     <select 
@@ -616,7 +616,7 @@ export default function AdminCMSPage() {
                   </div>
                 </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                <div className={styles.modalFormRow}>
                   <div className={styles.formGroup}>
                     <label>Author Name</label>
                     <input 

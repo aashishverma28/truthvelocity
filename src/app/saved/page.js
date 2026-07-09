@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useApp } from '@/context/AppContext';
 import homeStyles from '../Home.module.css';
+import styles from './Saved.module.css';
 import { Clock, Bookmark, Trash2, ArrowLeft } from 'lucide-react';
 
 export default function SavedArticlesPage() {
@@ -48,7 +49,7 @@ export default function SavedArticlesPage() {
     return (
       <div className="container" style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
         <div style={{ height: '30px', width: '30%', marginBottom: '1.5rem' }} className="skeleton" />
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
+        <div className={styles.grid}>
           {[1, 2].map(n => (
             <div key={n} style={{ height: '220px' }} className="skeleton" />
           ))}
@@ -73,7 +74,7 @@ export default function SavedArticlesPage() {
       </div>
 
       {savedArticles.length > 0 ? (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
+        <div className={styles.grid}>
           {savedArticles.map((story) => (
             <div 
               key={story.id} 

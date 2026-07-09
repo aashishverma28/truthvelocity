@@ -86,7 +86,7 @@ export default function CategoryPage() {
     return (
       <div className="container" style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
         <div style={{ height: '180px', width: '100%', marginBottom: '2rem' }} className="skeleton" />
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
+        <div className={styles.grid}>
           {[1, 2, 3].map(n => (
             <div key={n} style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               <div style={{ height: '180px' }} className="skeleton" />

@@ -57,7 +57,7 @@ export default function AdZone({ type }) {
       <span className={styles.adLabel}>Advertisement</span>
       <div className={ad.boxClass}>
         <span className={styles.adTitle}>{ad.title}</span>
-        <span className={ad.subtitle}>{ad.subtitle}</span>
+        <span className={styles.adSubtitle}>{ad.subtitle}</span>
       </div>
     </div>
   );

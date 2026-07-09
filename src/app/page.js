@@ -106,7 +106,7 @@ export default function HomePage() {
       <div className="container" style={{ paddingTop: '2rem', paddingBottom: '3rem' }}>
         {/* Skeleton loading grid */}
         <div style={{ height: '400px', width: '100%', marginBottom: '2rem' }} className="skeleton" />
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem' }}>
+        <div className={styles.topStoriesGrid}>
           {[1, 2, 3, 4].map(n => (
             <div key={n} style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               <div style={{ height: '150px' }} className="skeleton" />

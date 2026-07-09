@@ -202,7 +202,7 @@ export default function ArticleDetailPage() {
         </div>
         
         {/* Right Info: Font resizer and Dates */}
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.5rem' }}>
+        <div className={styles.metaWrapper}>
           <FontResizer onSizeChange={(size) => setFontSize(size)} />
           <div className={styles.publishMeta}>
             <div>Published: {formatDate(article.publishedAt)}</div>
