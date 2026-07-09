@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+  padding: 3rem 1.25rem;
+  font-family: var(--font-sans);
+}
+
+.errorCode {
+  font-family: var(--font-condensed);
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  line-height: 1;
+  margin-bottom: 1rem;
+  letter-spacing: -0.05em;
+}
+
+.errorTitle {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+:global(.dark) .errorTitle {
+  color: var(--color-white);
+}
+
+.errorDesc {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  max-width: 480px;
+  margin-bottom: 2rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.homeBtn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  padding: 0.65rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+:global(.dark) .homeBtn {
+  background-color: var(--color-accent);
+}
+
+.homeBtn:hover {
+  background-color: var(--color-accent);
+}
+
+:global(.dark) .homeBtn:hover {
+  background-color: #c92f3b;
+}
+
+.searchBtn {
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border-dark);
+  color: var(--color-text);
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  padding: 0.65rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.searchBtn:hover {
+  background-color: var(--color-border);
+}

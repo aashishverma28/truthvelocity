@@ -1,0 +1,83 @@
+.adContainer {
+  margin: 2rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.adLabel {
+  font-family: var(--font-condensed);
+  font-size: 0.65rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.35rem;
+  display: block;
+}
+
+.adBox {
+  background-color: var(--color-bg-alt);
+  border: 1px dashed var(--color-border-dark);
+  color: var(--color-text-muted);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-sans);
+  position: relative;
+  overflow: hidden;
+  padding: 0.5rem;
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+.leaderboard {
+  width: 728px;
+  height: 90px;
+  max-width: 100%;
+}
+
+.sidebar_rect {
+  width: 300px;
+  height: 250px;
+  max-width: 100%;
+}
+
+.mid_article {
+  width: 728px;
+  height: 90px;
+  max-width: 100%;
+}
+
+.adTitle {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--color-primary);
+  margin-bottom: 0.2rem;
+}
+
+:global(.dark) .adTitle {
+  color: var(--color-secondary-accent);
+}
+
+.adSubtitle {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 768px) {
+  .leaderboard, .mid_article {
+    width: 320px;
+    height: 50px;
+  }
+  
+  .adTitle {
+    font-size: 0.75rem;
+    margin-bottom: 0;
+  }
+  
+  .adSubtitle {
+    display: none;
+  }
+}

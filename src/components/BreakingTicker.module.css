@@ -1,0 +1,81 @@
+.tickerContainer {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  height: 38px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.tickerLabel {
+  background-color: #9D000A; /* Darker blood red for distinct look */
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  padding: 0 1.25rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+  text-transform: uppercase;
+  /* Sharp flat cut box design - no rounded pill */
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.tickerLabel::after {
+  content: '';
+  position: absolute;
+  right: -10px;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+  background-color: #9D000A;
+  transform: skewX(-15deg);
+  transform-origin: top;
+}
+
+.tickerBody {
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.tickerList {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  position: absolute;
+  white-space: nowrap;
+  animation: ticker-marquee 30s linear infinite;
+  padding-left: 2rem;
+}
+
+.tickerList:hover {
+  animation-play-state: paused;
+}
+
+.tickerItem {
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: var(--color-white);
+}
+
+.tickerItem:hover {
+  text-decoration: underline;
+}
+
+.tickerDivider {
+  font-size: 0.7rem;
+  opacity: 0.6;
+}

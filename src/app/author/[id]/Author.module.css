@@ -1,0 +1,85 @@
+.profileCard {
+  background-color: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
+  padding: 3.5rem 0;
+  margin-bottom: 2.5rem;
+}
+
+.profileFlex {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.profileImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-card-bg);
+  box-shadow: var(--shadow-sm);
+  flex-shrink: 0;
+}
+
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.authorDesignation {
+  font-family: var(--font-condensed);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.authorName {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.authorBio {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  max-width: 700px;
+}
+
+.socialRow {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.socialBtn {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.socialBtn:hover {
+  color: var(--color-accent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 768px) {
+  .profileFlex {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

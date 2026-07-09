@@ -1,0 +1,264 @@
+{
+  "articles": [
+    {
+      "id": "art-1",
+      "slug": "coalition-government-announces-landmark-green-infrastructure-budget",
+      "title": "Coalition Government Announces Landmark ₹50,000 Crore Green Infrastructure Budget",
+      "excerpt": "In a major move toward sustainable growth, the newly formed coalition has tabled a comprehensive green energy plan targeting rural electrification and urban mass transit.",
+      "content": "<p>In what is being hailed as a historic step for the country's sustainable development goals, the Central Government has announced a ₹50,000 Crore Green Infrastructure Budget focused on transforming energy and public transit systems over the next five years.</p><p>Speaking from the Parliament, the Union Minister for Renewable Energy highlighted that this budget is designed not just for carbon reduction, but as an economic engine for rural and semi-urban job creation.</p><blockquote>\"Our transition to a clean economy cannot be a luxury for the rich. It must begin with our farmers, our small town commuters, and our local municipal bodies.\" <br/>— Union Minister</blockquote><p>The budget allocates approximately 40% of the total funds to expanding decentralized solar power grids in farming communities. This will allow farmers to generate and sell surplus electricity back to national state-run utility grids, boosting auxiliary incomes.</p><p>Another major pillar is the rapid modernization of metropolitan public transport. 15 key tier-2 cities will receive dedicated funding for zero-emission electric bus transit networks, reducing reliance on fossil-fuel passenger vehicles.</p><p>Opposition leaders, while welcoming the carbon-reduction goals, raised concerns about the source of funding, warning that increased fiscal deficits might trigger inflation. The government maintains that the funds will be generated through a combination of sovereign green bonds and restructured carbon tariffs on heavy industrial imports.</p>",
+      "category": "India",
+      "subCategory": "Politics",
+      "publishedAt": "2026-07-09T10:30:00Z",
+      "updatedAt": "2026-07-09T14:15:00Z",
+      "readTime": "4 min read",
+      "author": {
+        "id": "auth-rajesh",
+        "name": "Rajesh Sen",
+        "designation": "National Political Editor",
+        "bio": "Rajesh covers central government policy, elections, and public finance. With over two decades in journalism, he previously worked with leading national dailies.",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+      },
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&auto=format&fit=crop&q=80",
+      "tags": ["Budget 2026", "Green Infrastructure", "Indian Politics", "Solar Energy"],
+      "comments": [
+        {
+          "id": "c-1",
+          "name": "Amit Sharma",
+          "text": "A welcome move! Rural solar grids will empower farmers. Execution will be key here.",
+          "timestamp": "2026-07-09T11:00:00Z"
+        },
+        {
+          "id": "c-2",
+          "name": "Venkatesh K.",
+          "text": "We need to ensure state DISCOMs actually pay the farmers on time. Past schemes have failed on administrative delays.",
+          "timestamp": "2026-07-09T12:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "art-2",
+      "slug": "global-markets-stabilize-as-fed-indicates-interest-rate-pause",
+      "title": "Global Markets Stabilize as Federal Reserve Signals Pause in Interest Rate Hikes",
+      "excerpt": "Stock indices across Europe and Asia recovered lost ground following statements from central bank governors indicating a cooling inflation trend.",
+      "content": "<p>Major stock indexes staged a modest recovery on Thursday afternoon as investors reacted to hints from the Federal Reserve that interest rate hikes could be paused at next month's meeting.</p><p>Inflation indicators have begun showing signs of stabilization, with consumer price indexes rising at a slower pace than economists predicted. The yield on the US 10-year Treasury note slipped back to 3.85%, easing pressure on global borrowing costs.</p><blockquote>\"While it is too early to declare victory over inflation, the data shows our policy measures are taking hold without triggering a hard landing.\" <br/>— Federal Reserve Governor</blockquote><p>In response, Tokyo's Nikkei 225 ended 1.2% higher, while London's FTSE 100 gained 0.85% in morning trade. Emerging market currencies also clawed back value against a slightly weaker US dollar, providing relief to national import accounts.</p><p>Market analysts remain cautious, however. Many point out that core inflation—excluding volatile food and energy costs—remains above the target 2.0% band, meaning rate cuts are unlikely until late this year or early next year.</p>",
+      "category": "Business",
+      "subCategory": "Markets",
+      "publishedAt": "2026-07-09T08:15:00Z",
+      "updatedAt": "2026-07-09T08:15:00Z",
+      "readTime": "3 min read",
+      "author": {
+        "id": "auth-sarah",
+        "name": "Sarah Jenkins",
+        "designation": "Global Finance Correspondent",
+        "bio": "Sarah Jenkins reports on international financial markets, central banking, and economic policy from London.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+      },
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&auto=format&fit=crop&q=80",
+      "tags": ["Stock Markets", "Interest Rates", "Federal Reserve", "Inflation"],
+      "comments": []
+    },
+    {
+      "id": "art-3",
+      "slug": "cricket-world-cup-selection-dilemma-who-fills-middle-order",
+      "title": "Selection Dilemma: Who Fills India’s Middle-Order Slot in the Upcoming World Cup?",
+      "excerpt": "With the squad announcement less than two weeks away, selectors face a tough choice between aggressive youth and reliable experience.",
+      "content": "<p>As the final squad deadline approaches for the upcoming ICC Men's Cricket World Cup, the selection panel faces their most contentious decision yet: who claims the pivotal number five slot in the batting lineup?</p><p>With the top four virtually locked in, the team requires a batsman capable of steadying the ship during a top-order collapse, while possessing the fire-power to finish high-scoring games in the final ten overs.</p><blockquote>\"It is a good headache to have. We have three batsmen in peak form, all offering slightly different tactical advantages.\" <br/>— Head Coach</blockquote><p>The front-runners are the 22-year-old left-hander Ishaan Kishan, whose recent aggressive centuries have electrified domestic tournaments, and the seasoned veteran Shreyas Iyer, known for his masterclass spins and ice-cool temperament in pressure run chases.</p><p>Former captains are split on the matter. Many argue that the slow wickets expected in the latter stages of the tournament favor Iyer's spin-playing technique. Others feel Kishan's left-handedness brings crucial balance to an otherwise right-hand heavy top order.</p><p>The selection committee will gather in Mumbai this Friday to make the final determination, with warm-up games scheduled to begin shortly after.</p>",
+      "category": "Sports",
+      "subCategory": "Cricket",
+      "publishedAt": "2026-07-09T12:00:00Z",
+      "updatedAt": "2026-07-09T12:00:00Z",
+      "readTime": "5 min read",
+      "author": {
+        "id": "auth-vikram",
+        "name": "Vikram Rathore",
+        "designation": "Senior Sports Analyst",
+        "bio": "Vikram has covered three Cricket World Cups and is a regular commentator on national sports television.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80"
+      },
+      "image": "https://images.unsplash.com/photo-1531415080290-b9b6fa5031b8?w=800&auto=format&fit=crop&q=80",
+      "tags": ["World Cup 2026", "Indian Cricket Team", "Selection Panel", "Sports News"],
+      "comments": [
+        {
+          "id": "c-3",
+          "name": "Rahul Dev",
+          "text": "Go with youth! Kishan is fearless and can change the game in 5 overs.",
+          "timestamp": "2026-07-09T12:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "art-4",
+      "slug": "ai-reasoning-models-leap-forward-system-2-thinking",
+      "title": "The Next Leap in AI: Large Models Emulate Human 'System 2' Reasoning",
+      "excerpt": "A breakthrough research paper outlines new training methods that encourage AI to halt and verify facts before generating responses, reducing hallucinations.",
+      "content": "<p>For years, generative AI models have operated in a manner akin to human \"System 1\" thinking—fast, intuitive, and immediate. However, a major collaboration between research labs in Bengaluru and California has successfully demonstrated AI that implements \"System 2\" thinking—slow, analytical, and self-correcting.</p><p>This new paradigm allows AI agents to formulate internal hypotheses, verify logical premises, and cross-reference citations before outputting a single word to the end user.</p><blockquote>\"By forcing the model to generate a structured chain of thought in the background, we have reduced logical contradictions and factual hallucinations by over 74%.\" <br/>— Lead Researcher</blockquote><p>The implications for fields like medical diagnosis, legal contract analysis, and automated coding are massive. Traditional LLMs have struggled with complex multi-step reasoning, often failing to maintain logical consistency over long outputs. System 2 agents, however, can plan their execution path and verify intermediate steps.</p><p>Critics point out that this reasoning loop significantly increases computational cost and latency. A single query can take up to ten seconds to process as the system double-checks its reasoning steps. The research team is now focused on optimizing inference speeds through custom chip architectures and model distillation.</p>",
+      "category": "Technology",
+      "subCategory": "Tech",
+      "publishedAt": "2026-07-09T06:00:00Z",
+      "updatedAt": "2026-07-09T09:30:00Z",
+      "readTime": "6 min read",
+      "author": {
+        "id": "auth-aditi",
+        "name": "Aditi Roy",
+        "designation": "Technology & Science Editor",
+        "bio": "Aditi Roy covers software engineering, artificial intelligence, and quantum computing. She holds a master's in Computer Science from IISc.",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+      },
+      "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+      "tags": ["Artificial Intelligence", "Large Language Models", "Tech Research", "Bengaluru Tech"],
+      "comments": []
+    },
+    {
+      "id": "art-5",
+      "slug": "shadow-of-silence-movie-review-masterpiece",
+      "title": "Review: 'Shadow of Silence' is a Haunting Cinematic Masterpiece",
+      "excerpt": "Director Anurag Kashyap's latest psychological thriller pushes the boundaries of neo-noir cinema with phenomenal performances and brilliant lighting.",
+      "content": "<p>In an era dominated by formulaic action franchises and high-budget sequels, Anurag Kashyap's <i>Shadow of Silence</i> arrives as a refreshing, if deeply unsettling, reminder of the power of original character-driven cinema.</p><p>Set against the neon-lit, rain-slicked alleys of suburban Mumbai, the film follows a retired detective (played with career-defining nuance by Manoj Bajpayee) who becomes obsessed with a cold case that closely mirrors his own tragic past.</p><blockquote>\"Shadow of Silence is not interested in satisfying jump-scares or clean endings. It wants to live in the gray areas of human morality.\" <br/>— Film Critic</blockquote><p>The standout element of the film is its cinematography. The use of shadow, high-contrast lighting, and deep amber hues creates a suffocating, dream-like atmosphere. The silence itself becomes a character, with long stretches of the film featuring nothing but ambient environmental sound and a haunting minimalist cello score.</p><p>Manoj Bajpayee's performance is a masterclass in restraint. With minimal dialogue, he communicates decades of grief, guilt, and fading hope through simple postures and glances. The supporting cast, particularly newcomer Trupti Dimri as the mysterious informant, is equally stellar.</p><p>While the film's deliberate pacing (running at 148 minutes) might test the patience of casual viewers, those who appreciate slow-burn psychological tension will find it to be one of the finest Indian films of the decade.</p>",
+      "category": "Entertainment",
+      "subCategory": "Bollywood",
+      "publishedAt": "2026-07-08T18:00:00Z",
+      "updatedAt": "2026-07-09T08:00:00Z",
+      "readTime": "4 min read",
+      "author": {
+        "id": "auth-karan",
+        "name": "Karan Johar",
+        "designation": "Lead Entertainment Critic",
+        "bio": "Karan Johar has been reviewing Indian cinema and pop culture for over fifteen years. He is a regular at national film festivals.",
+        "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&q=80"
+      },
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&auto=format&fit=crop&q=80",
+      "tags": ["Anurag Kashyap", "Manoj Bajpayee", "Movie Review", "Bollywood Noir"],
+      "comments": [
+        {
+          "id": "c-4",
+          "name": "Priya Sen",
+          "text": "Manoj Bajpayee is national treasure. Will definitely watch it this weekend!",
+          "timestamp": "2026-07-09T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "art-6",
+      "slug": "why-speed-of-truth-matters-in-the-digital-age",
+      "title": "Opinion: The Speed of Truth in the Age of Synthetic Rumors",
+      "excerpt": "In a world where deepfakes and automated narratives spread instantly, the value of slow, verified, and transparent journalism has never been higher.",
+      "content": "<p>We live in an era where information travels at the speed of light, but falsehoods often travel faster. The rise of sophisticated generative tools has made it trivial to manufacture highly convincing audio, video, and textual fabrications. In this hyper-connected landscape, the rush to be first often eclipses the duty to be correct.</p><p>This is what we call the velocity trap. Newsrooms, pressured by social media algorithms and advertising revenue tied to immediate clicks, are increasingly publishing unverified reports, only to retract or amend them hours later when the damage is already done.</p><blockquote>\"Being first is vanity. Being correct is journalism. In the long run, the audience returns to the sources they trust, not just the ones that screamed loudest.\"</blockquote><p>The antidote is not slower information, but faster verification. Modern newsrooms must combine classic investigative techniques with advanced digital forensics—verifying metadata, tracking digital provenance, and conducting real-time cross-referencing. We must make the process of verification as rapid and agile as the spread of rumor itself.</p><p>Furthermore, transparency must be built into the interface. Readers should be able to see the sources, click on raw transcripts, and understand the logic behind an editorial conclusion. Only by showing our work can we rebuild the trust that has been eroded by decades of sensationalism.</p>",
+      "category": "Opinion/Editorial",
+      "subCategory": "Opinion",
+      "publishedAt": "2026-07-09T09:00:00Z",
+      "updatedAt": "2026-07-09T09:00:00Z",
+      "readTime": "5 min read",
+      "author": {
+        "id": "auth-editor",
+        "name": "Siddharth Mehta",
+        "designation": "Editor-in-Chief",
+        "bio": "Siddharth Mehta is the Editor-in-Chief of Truth Velocity. He has spent 30 years covering conflicts, elections, and media ethics globally.",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80"
+      },
+      "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&auto=format&fit=crop&q=80",
+      "tags": ["Media Ethics", "Fake News", "Journalism", "Editorial"],
+      "comments": []
+    },
+    {
+      "id": "art-7",
+      "slug": "milan-graphene-battery-startup-raises-funding",
+      "title": "Milan Graphene Battery Startup Raises $45M to Commercialize Fast-Charging EV Cells",
+      "excerpt": "By replacing traditional graphite anodes with graphene sheets, the company claims to achieve a full charge in under six minutes while doubling lifespan.",
+      "content": "<p>A high-tech battery startup based in Milan has successfully closed a $45 million Series B funding round, aiming to build a pilot manufacturing line for its breakthrough graphene-based electric vehicle (EV) cells.</p><p>The funding was led by European green venture funds, with participation from major automotive manufacturers looking to secure next-generation chemistry options for their fleets.</p><blockquote>\"Graphene has been a lab curiosity for two decades. We have cracked the scale-up challenge, allowing us to roll out commercially viable anode sheets at volume.\" <br/>— CEO, GrapheneVolt</blockquote><p>The primary barrier to EV adoption has always been range anxiety and charging convenience. Current lithium-ion batteries take 30 to 45 minutes to charge to 80% on high-speed DC chargers, and frequent fast-charging degrades the battery. GrapheneVolt's cells can handle high currents without overheating, allowing safe 0-to-100% charging in just under 6 minutes.</p><p>The pilot factory is slated to begin limited production by late 2026, delivering sample packs to partner car manufacturers for road testing in early 2027.</p>",
+      "category": "Business",
+      "subCategory": "Startups",
+      "publishedAt": "2026-07-08T10:00:00Z",
+      "updatedAt": "2026-07-08T10:00:00Z",
+      "readTime": "4 min read",
+      "author": {
+        "id": "auth-sarah",
+        "name": "Sarah Jenkins",
+        "designation": "Global Finance Correspondent",
+        "bio": "Sarah Jenkins reports on international financial markets, central banking, and economic policy from London.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+      },
+      "image": "https://images.unsplash.com/photo-1558441719-ff34b0524a24?w=800&auto=format&fit=crop&q=80",
+      "tags": ["Electric Vehicles", "Venture Capital", "Graphene Batteries", "Startups"],
+      "comments": []
+    },
+    {
+      "id": "art-8",
+      "slug": "world-health-organization-advises-mindful-eating-guidelines",
+      "title": "WHO Outlines New Dietary Guidelines Emphasizing Mindful and Whole Food Eating",
+      "excerpt": "Moving away from strict calorie counting, the revised recommendations focus on food processing levels, dietary diversity, and gut microbiome health.",
+      "content": "<p>The World Health Organization (WHO) has issued its most significant dietary update in a decade, advocating for a holistic approach to nutrition that prioritizes whole, unprocessed foods and gut health over rigid calorie tracking.</p><p>The guidelines highlight a mounting body of research showing that the human body metabolizes calories from ultra-processed foods differently than those from complex, fiber-rich whole foods.</p><blockquote>\"A calorie is not just a calorie. The metabolic pathways, hormone triggers, and impact on gut flora differ drastically based on the food matrix.\" <br/>— Nutrition Specialist, WHO</blockquote><p>The revised advisory recommends that ultra-processed foods—defined as items containing synthetic additives, emulsifiers, and hydrogenated fats—make up less than 10% of daily caloric intake. Instead, it urges a return to traditional, local grains, fermented items, and diverse plant-based fibers that support gut microbiome diversity.</p><p>Health advocates have welcomed the change, stating it aligns public health policy with modern nutritional science. Food manufacturing coalitions, however, have criticized the guidelines as overly restrictive and difficult for low-income urban families to adopt without subsidies for fresh produce.</p>",
+      "category": "Lifestyle",
+      "subCategory": "Health",
+      "publishedAt": "2026-07-09T05:00:00Z",
+      "updatedAt": "2026-07-09T05:00:00Z",
+      "readTime": "3 min read",
+      "author": {
+        "id": "auth-meera",
+        "name": "Meera Patel",
+        "designation": "Lifestyle & Wellness Columnist",
+        "bio": "Meera covers culinary history, wellness trends, and travel writing. She was formerly a wellness consultant in Mumbai.",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80"
+      },
+      "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&auto=format&fit=crop&q=80",
+      "tags": ["Dietary Guidelines", "WHO", "Gut Health", "Mindful Eating"],
+      "comments": []
+    },
+    {
+      "id": "art-9",
+      "slug": "united-nations-convenes-emergency-climate-summit",
+      "title": "UN Convenes Emergency Climate Summit as Arctic Ice Melt Hits Record Highs",
+      "excerpt": "Delegates from 190 nations assemble in Geneva after satellite data confirms a dramatic acceleration in polar shelf fracturing during the summer months.",
+      "content": "<p>The United Nations has called an emergency climate assembly in Geneva, summoning environmental ministers and heads of state to address what scientists are calling an unprecedented collapse in Arctic ice sheets.</p><p>Data released by the Copernicus Climate Change Service shows that polar sea ice levels have reached their lowest summer extent since satellite records began in 1979, far outpacing the worst-case models prepared just three years ago.</p><blockquote>\"We are no longer looking at projections. The feedback loops have begun. What happens in the Arctic affects monsoon cycles, coastal tides, and agricultural yields everywhere.\" <br/>— UN Secretary General</blockquote><p>The emergency summit aims to secure immediate, binding pledges to halt coal-fired energy expansion and speed up coal phaseouts, particularly in high-emitting industrial nations. The US and EU have proposed a joint carbon border tax to penalize imports from countries without active emissions-capping programs.</p><p>Developing nations, led by a consortium of Latin American and Asian economies, are demanding immediate activation of the Loss and Damage fund agreed upon in past COPs, arguing that coastal infrastructure damage requires international financing assistance now, not in 2030.</p>",
+      "category": "World",
+      "subCategory": "Global Affairs",
+      "publishedAt": "2026-07-09T11:15:00Z",
+      "updatedAt": "2026-07-09T13:30:00Z",
+      "readTime": "5 min read",
+      "author": {
+        "id": "auth-sarah",
+        "name": "Sarah Jenkins",
+        "designation": "Global Finance Correspondent",
+        "bio": "Sarah Jenkins reports on international financial markets, central banking, and economic policy from London.",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+      },
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+      "tags": ["Climate Change", "United Nations", "Geneva Summit", "Arctic Melt"],
+      "comments": []
+    },
+    {
+      "id": "art-10",
+      "slug": "premier-league-clash-arsenal-chelsea-draw",
+      "title": "Thrilling 2-2 Draw in London Derby as Arsenal and Chelsea Split Points",
+      "excerpt": "A late injury-time equalizer from Bukayo Saka sealed a point for the Gunners in an intense, end-to-end tactical battle at the Emirates.",
+      "content": "<p>Arsenal and Chelsea played out an absolute thriller at the Emirates Stadium on Wednesday evening, with a 93rd-minute equalizer from Bukayo Saka ensuring the London derby ended honors even at 2-2.</p><p>The match was played at a breakneck pace from the first whistle, with Chelsea's high press forcing an early error in Arsenal's midfield, leading to Cole Palmer slotting home a clinical opening goal in the 14th minute.</p><blockquote>\"It was a fantastic match for the neutral, but stressful for the managers. We showed incredible character to fight back twice.\" <br/>— Arsenal Manager</blockquote><p>Arsenal dominated possession for the remainder of the first half, but struggled to break down Chelsea's compact low block. The equalizer finally arrived in the 58th minute when Martin Ødegaard converted a brilliant cross. However, Chelsea struck back against the run of play just ten minutes later, with Nicolas Jackson capitalizing on a quick counter-attack.</p><p>With Arsenal throwing everyone forward, the game stretched. In the third minute of added time, Bukayo Saka picked up the ball on the right wing, cut inside his defender, and curled a magnificent shot into the top corner, sending the home fans into raptures.</p><p>The result leaves Arsenal in third place, three points behind league leaders Manchester City, while Chelsea moves up to sixth after a promising display of tactical discipline.</p>",
+      "category": "Sports",
+      "subCategory": "Football",
+      "publishedAt": "2026-07-08T22:30:00Z",
+      "updatedAt": "2026-07-09T07:15:00Z",
+      "readTime": "4 min read",
+      "author": {
+        "id": "auth-vikram",
+        "name": "Vikram Rathore",
+        "designation": "Senior Sports Analyst",
+        "bio": "Vikram has covered three Cricket World Cups and is a regular commentator on national sports television.",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80"
+      },
+      "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop&q=80",
+      "tags": ["Premier League", "Arsenal", "Chelsea", "Football News"],
+      "comments": []
+    }
+  ],
+  "breakingNews": [
+    {"id": "b-1", "title": "PM Modi to chair high-level meeting on global trade tariffs tomorrow morning", "lang": "en"},
+    {"id": "b-2", "title": "Sensex slips 450 points; Nifty trading below 23,200 as global tech stocks sell off", "lang": "en"},
+    {"id": "b-3", "title": "SpaceX successfully launches Falcon Heavy with communication satellite from Cape Canaveral", "lang": "en"},
+    {"id": "b-4", "title": "केंद्रीय सरकार ने 50,000 करोड़ रुपये के ग्रीन इंफ्रास्ट्रक्चर बजट की घोषणा की", "lang": "hi"},
+    {"id": "b-5", "title": "लंदन डर्बी: आर्सेनल और चेल्सी के बीच रोमांचक मुकाबला 2-2 से ड्रॉ पर समाप्त", "lang": "hi"}
+  ],
+  "trending": ["art-1", "art-4", "art-3", "art-6", "art-9"],
+  "ads": {
+    "leaderboard": true,
+    "sidebar_rect": true,
+    "mid_article": true
+  }
+}
