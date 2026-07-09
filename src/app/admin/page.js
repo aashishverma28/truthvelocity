@@ -7,6 +7,7 @@ import {
   Plus, Edit2, Trash2, CheckCircle2, ShieldAlert,
   Sliders, MessageSquare, Newspaper, Percent, BookOpen, AlertCircle
 } from 'lucide-react';
+import { supabase } from '@/lib/supabaseClient';
 
 export default function AdminCMSPage() {
   const [activeTab, setActiveTab] = useState('articles'); // articles, ticker, ads, comments
@@ -24,6 +25,7 @@ export default function AdminCMSPage() {
     id: '', title: '', excerpt: '', content: '', category: 'India', subCategory: '',
     authorName: '', authorDesignation: '', image: '', tagsString: ''
   });
+  const [uploadingImage, setUploadingImage] = useState(false);
 
   // Ticker form states
   const [newTickerTitle, setNewTickerTitle] = useState('');
@@ -92,6 +94,43 @@ export default function AdminCMSPage() {
       tagsString: art.tags?.join(', ') || ''
     });
     setArticleModalOpen(true);
+  };
+
+  const handleImageUpload = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    setUploadingImage(true);
+    setErrorMsg('');
+
+    try {
+      const fileExt = file.name.split('.').pop();
+      const fileName = `${Date.now()}-${Math.random().toString(36).substring(2)}.${fileExt}`;
+      const filePath = `uploads/${fileName}`;
+
+      const { data, error } = await supabase.storage
+        .from('article-images')
+        .upload(filePath, file, {
+          cacheControl: '3600',
+          upsert: false
+        });
+
+      if (error) throw error;
+
+      const { data: { publicUrl } } = supabase.storage
+        .from('article-images')
+        .getPublicUrl(filePath);
+
+      setCurrentArticle(prev => ({
+        ...prev,
+        image: publicUrl
+      }));
+    } catch (err) {
+      console.error('Error uploading image:', err);
+      setErrorMsg('Failed to upload image. Please try again.');
+    } finally {
+      setUploadingImage(false);
+    }
   };
 
   const handleArticleSubmit = async (e) => {
@@ -599,14 +638,69 @@ export default function AdminCMSPage() {
                 </div>
 
                 <div className={styles.formGroup}>
-                  <label>Featured Image URL (Unsplash/Web)</label>
-                  <input 
-                    type="text" 
-                    value={currentArticle.image}
-                    onChange={(e) => setCurrentArticle({...currentArticle, image: e.target.value})}
-                    className={styles.inputField}
-                    placeholder="https://images.unsplash.com/photo-..."
-                  />
+                  <label>Featured Image</label>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                    {/* Option A: Upload file */}
+                    <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                      <input 
+                        type="file" 
+                        accept="image/*" 
+                        onChange={handleImageUpload} 
+                        style={{ display: 'none' }}
+                        id="image-file-upload"
+                      />
+                      <label 
+                        htmlFor="image-file-upload" 
+                        style={{ 
+                          padding: '0.5rem 1rem', 
+                          backgroundColor: 'var(--color-primary)', 
+                          color: '#ffffff', 
+                          borderRadius: '4px', 
+                          cursor: 'pointer',
+                          fontSize: '0.85rem',
+                          fontWeight: 'bold',
+                          display: 'inline-block',
+                          border: 'none',
+                          textAlign: 'center'
+                        }}
+                      >
+                        {uploadingImage ? 'Uploading...' : 'Upload Image File'}
+                      </label>
+                      {currentArticle.image && currentArticle.image.includes('supabase.co') ? (
+                        <span style={{ fontSize: '0.85rem', color: 'green', fontWeight: 'bold' }}>✓ Uploaded to cloud</span>
+                      ) : null}
+                    </div>
+
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      <span style={{ height: '1px', flexGrow: 1, backgroundColor: 'var(--color-border)' }}></span>
+                      <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', color: '#999', fontWeight: 'bold' }}>OR</span>
+                      <span style={{ height: '1px', flexGrow: 1, backgroundColor: 'var(--color-border)' }}></span>
+                    </div>
+
+                    {/* Option B: Enter image link */}
+                    <div>
+                      <input 
+                        type="text" 
+                        value={currentArticle.image}
+                        onChange={(e) => setCurrentArticle({...currentArticle, image: e.target.value})}
+                        className={styles.inputField}
+                        placeholder="Or enter direct image URL (e.g. https://images.unsplash.com/...)"
+                      />
+                    </div>
+
+                    {/* Preview of current image */}
+                    {currentArticle.image && (
+                      <div style={{ marginTop: '0.5rem' }}>
+                        <span style={{ display: 'block', fontSize: '0.75rem', color: '#999', marginBottom: '0.25rem' }}>Image Preview:</span>
+                        <img 
+                          src={currentArticle.image} 
+                          alt="Preview" 
+                          style={{ width: '100%', maxHeight: '120px', objectFit: 'cover', borderRadius: '4px', border: '1px solid var(--color-border)' }} 
+                          onError={(e) => { e.target.style.display = 'none'; }}
+                        />
+                      </div>
+                    )}
+                  </div>
                 </div>
 
                 <div className={styles.formGroup}>
