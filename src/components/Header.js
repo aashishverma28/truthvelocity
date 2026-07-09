@@ -139,9 +139,9 @@ export default function Header() {
       {/* 2. Main Header Bar */}
       <div className={styles.mainHeader}>
         <div className={`container ${styles.mainHeaderFlex}`}>
-          <div style={{ padding: '0.2rem 0' }}>
+          <div className={styles.logoWrapper}>
             <Link href="/">
-              <Logo variant="header" height="55px" />
+              <Logo variant="header" height="100%" />
             </Link>
           </div>
 
@@ -178,7 +178,7 @@ export default function Header() {
             <button className={styles.liveBtn} onClick={() => setLiveTvOpen(true)}>
               <span className="pulse-dot" style={{ backgroundColor: '#ffffff' }}></span>
               <Tv size={15} />
-              <span>{getTranslation('liveTv')}</span>
+              <span className={styles.liveText}>{getTranslation('liveTv')}</span>
             </button>
 
             {/* Hamburger for mobile */}

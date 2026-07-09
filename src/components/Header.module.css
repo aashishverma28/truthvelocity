@@ -404,4 +404,32 @@
   .trendingSection {
     padding: 0.3rem 0.8rem;
   }
+
+  .logoWrapper {
+    height: 38px;
+  }
+
+  .liveText {
+    display: none;
+  }
+
+  .headerActions {
+    gap: 0.6rem;
+  }
+
+  .searchIcon {
+    position: relative;
+    right: auto;
+    padding: 0.3rem;
+  }
+}
+
+.logoWrapper {
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.liveText {
+  display: inline;
 }
